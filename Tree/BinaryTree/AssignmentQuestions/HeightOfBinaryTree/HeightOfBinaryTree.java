@@ -1,4 +1,4 @@
-package Tree.AssignmentQuestions.HeightOfBinaryTree;
+package Tree.BinaryTree.AssignmentQuestions.HeightOfBinaryTree;
 
 class Node
 {
