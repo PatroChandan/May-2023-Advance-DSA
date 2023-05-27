@@ -1,4 +1,4 @@
-package Tree.BinaryTree.AssignmentQuestions.BinaryTreeNodeCreation;
+package Tree.BinaryTree.AssignmentQuestions.InClass.BinaryTreeNodeCreation;
 
 class Node {
     int value;

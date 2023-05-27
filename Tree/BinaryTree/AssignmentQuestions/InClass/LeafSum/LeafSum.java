@@ -1,4 +1,4 @@
-package Tree.BinaryTree.AssignmentQuestions.LeafSum;
+package Tree.BinaryTree.AssignmentQuestions.InClass.LeafSum;
 
 class TreeNode {
     int val;
