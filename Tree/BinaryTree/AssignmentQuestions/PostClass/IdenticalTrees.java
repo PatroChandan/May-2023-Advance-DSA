@@ -1,15 +1,15 @@
-package Tree.BinaryTree.AssignmentQuestions.PostClass.IdenticalTrees;
+package Tree.BinaryTree.AssignmentQuestions.PostClass;
 
-class Node {
-    int data;
-    Node left, right;
-
-    Node(int item) {
-        data = item;
-        left = right = null;
-    }
-}
 public class IdenticalTrees {
+    static class Node {
+        int data;
+        Node left, right;
+
+        Node(int item) {
+            data = item;
+            left = right = null;
+        }
+    }
     public static boolean isIdentical(Node root1, Node root2) {
         // Your code here
         // return true or false if both trees are identical or not

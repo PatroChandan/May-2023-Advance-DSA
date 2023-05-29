@@ -1,17 +1,16 @@
-package Tree.BinaryTree.AssignmentQuestions.InClass.BinaryTreeCreation;
-
-class Node {
-    int value;
-    Node left;
-    Node right;
-
-    public Node(int value) {
-        this.value = value;
-        this.left = null;
-        this.right = null;
-    }
-}
+package Tree.BinaryTree.AssignmentQuestions.InClass;
 public class BinaryTreeCreation {
+    static class Node {
+        int value;
+        Node left;
+        Node right;
+
+        public Node(int value) {
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+    }
     public static void main(String[] args) {
         // write your code here to create the tree
         Node root = new Node(1);

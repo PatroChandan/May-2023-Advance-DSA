@@ -1,18 +1,18 @@
-package Tree.BinarySearchTree.AssignmentQuestions.BinarySearchTreeCreation;
-
-class Node {
-    int value;
-    Node left;
-    Node right;
-
-    public Node(int value) {
-        this.value = value;
-        this.left = null;
-        this.right = null;
-    }
-}
+package Tree.BinarySearchTree.AssignmentQuestions.InClass;
 
 public class BinarySearchTreeCreation {
+    static class Node {
+        int value;
+        Node left;
+        Node right;
+
+        public Node(int value) {
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+    }
+
     private static void printTree(Node root) {
 
     }

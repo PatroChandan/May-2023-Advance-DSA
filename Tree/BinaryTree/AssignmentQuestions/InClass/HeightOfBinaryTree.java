@@ -1,16 +1,14 @@
-package Tree.BinaryTree.AssignmentQuestions.InClass.HeightOfBinaryTree;
+package Tree.BinaryTree.AssignmentQuestions.InClass;
 
-class Node
-{
-    int data;
-    Node left, right;
-    Node(int data)
-    {
-        this.data = data;
-        this.left = this.right = null;
-    }
-}
 public class HeightOfBinaryTree {
+    static class Node {
+        int data;
+        Node left, right;
+        Node(int data) {
+            this.data = data;
+            this.left = this.right = null;
+        }
+    }
     static int getHeight(Node node) {
         // Your code here
         if(node == null) {

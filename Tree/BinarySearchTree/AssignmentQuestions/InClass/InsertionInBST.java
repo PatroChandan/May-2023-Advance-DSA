@@ -1,18 +1,15 @@
-package Tree.BinarySearchTree.AssignmentQuestions.InsertionInBST;
-
-class Node
-{
-    int data;
-    Node left, right;
-
-    public Node(int d)
-    {
-        data = d;
-        left = right = null;
-    }
-}
+package Tree.BinarySearchTree.AssignmentQuestions.InClass;
 
 public class InsertionInBST {
+    static class Node {
+        int data;
+        Node left, right;
+
+        public Node(int d) {
+            data = d;
+            left = right = null;
+        }
+    }
     static Node insertInBST(Node root, int key) {
         // Your code here
         if(root == null) {
