@@ -1,4 +1,4 @@
-package DynamicProgramming.SubsetTargetSum;
+package DynamicProgramming.Knapsack.ZeroOneKnapsack;
 
 import java.util.Arrays;
 
