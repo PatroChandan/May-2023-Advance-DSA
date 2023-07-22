@@ -1,4 +1,4 @@
-package DynamicProgramming.Knapsack.ZeroOneKnapsack;
+package DynamicProgramming.Knapsack.ZeroOneKnapsack.InClass;
 
 public class ZeroOneKnapsackRecursion {
     static int maxWeightHelper(int w[], int v[], int W, int n) {

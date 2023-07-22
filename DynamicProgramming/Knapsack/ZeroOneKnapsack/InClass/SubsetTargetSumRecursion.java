@@ -1,4 +1,4 @@
-package DynamicProgramming.Knapsack.ZeroOneKnapsack;
+package DynamicProgramming.Knapsack.ZeroOneKnapsack.InClass;
 
 public class SubsetTargetSumRecursion {
     private static boolean targetSumHelper(int arr[], int sum, int n) {
